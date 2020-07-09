@@ -2,7 +2,6 @@ public class MinimumTimeVisitingAllPoints {
     public int minTimeToVisitAllPoints(int[][] points) {
         if(points == null || points.length <= 1) return 0;
         int lengthOne = points.length;
-        int lengthTwo = points[0].length;
         int xi = 0;
         int yi = 0;
         int xi2 = 0;
